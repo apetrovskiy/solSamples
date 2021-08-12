@@ -7,9 +7,9 @@ Modify the .env file or use the environment variables exactly like those that ar
 npm i
 
 
-
-
-
+#
+#
+#
 
 
 # REMIX EXAMPLE PROJECT
