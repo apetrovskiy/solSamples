@@ -6,6 +6,7 @@
     "devDependencies": {
         "@types/jest": "^26.0.24",
         "jest": "^27.0.6",
+        "jest-cucumber": "^3.0.1",
         "ts-jest": "^27.0.4",
         "typescript": "^4.3.5"
     },
@@ -14,7 +15,10 @@
     "version": "1.0.0",
     "main": "index.js",
     "directories": {
-        "test": "tests"
+        "test": [
+            "tests",
+            "features"
+        ]
     },
     "scripts": {
         "test": "jest"

@@ -1,4 +1,4 @@
-import { GlobalCounter } from "./GlobalCounter";
+import { GlobalCounter } from "../src/helpers/GlobalCounter";
 
 describe("test setup and teardown", () => {
     let globalCounter: GlobalCounter;
