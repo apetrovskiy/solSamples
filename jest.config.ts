@@ -3,6 +3,7 @@ module.exports = {
     preset: "ts-jest",
     testEnvironment: "node",
     testMatch: ["**/*.steps.ts", "**/*.spec.ts"],
+    testTimeout: 5000,
 };
 /*
 // jest.config.ts
