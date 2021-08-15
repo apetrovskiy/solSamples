@@ -660,3 +660,4 @@ dist
 
 !.env
 !scripts/*
+!jest.config.js
