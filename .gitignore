@@ -661,3 +661,4 @@ dist
 !.env
 !scripts/*
 !jest.config.js
+allure-results/
