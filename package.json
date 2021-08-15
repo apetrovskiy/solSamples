@@ -6,6 +6,7 @@
     "devDependencies": {
         "@types/jest": "^26.0.24",
         "jest": "^27.0.6",
+        "jest-allure": "^0.1.3",
         "jest-cucumber": "^3.0.1",
         "ts-jest": "^27.0.4",
         "ts-node": "^10.2.0",
