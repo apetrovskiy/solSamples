@@ -1,9 +1,16 @@
 /** @type {import('@ts-jest/dist/types').InitialOptionsTsJest} */
 module.exports = {
-    preset: "ts-jest",
-    testEnvironment: "node",
-    testMatch: ["**/*.steps.ts", "**/*.spec.ts"],
-    testTimeout: 5000,
+  modulePaths: ["src/"],
+  verbose: true,
+  preset: "ts-jest",
+  testEnvironment: "node",
+  testMatch: ["**/*.steps.ts", "**/*.spec.ts"],
+  testTimeout: 5000,
+  testPathIgnorePatterns: ["fixtures"],
+  globals: {},
+  setupFilesAfterEnv: ["jest-allure/dist/setup"],
+  reporters: ["default", "jest-allure"],
+  "testRunner": "jest-jasmine2",
 };
 /*
 // jest.config.ts
