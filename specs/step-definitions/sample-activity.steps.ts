@@ -10,12 +10,10 @@ defineFeature(feature, (test) => {
             console.log("BEFORE ALL");
         });
         given("there is a new user in Ethereum", () => {
-            console.log('given 1');
             user01 = new AccountCreator().create();
             console.log(user01);
         });
         given("there is another new user in Ethereum", () => {
-            console.log('given 2');
             user02 = new AccountCreator().create();
             console.log(user02);
         });
